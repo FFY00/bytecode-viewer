@@ -34,7 +34,7 @@
                 <artifactId>maven-assembly-plugin</artifactId>
                 <executions>
                     <execution>
-                        <phase>the.bytecode.club.bytecodeviewer</phase>
+                        <phase>package</phase>
                         <goals>
                             <goal>single</goal>
                         </goals>
@@ -47,7 +47,7 @@
                         </manifest>
                     </archive>
                     <descriptorRefs>
-                        <descriptorRef>dependencies</descriptorRef>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
                 </configuration>
             </plugin>
