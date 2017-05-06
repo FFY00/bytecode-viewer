@@ -30,10 +30,11 @@
                 <version>2.6</version>
             </plugin>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <executions>
                     <execution>
-                        <phase>package</phase>
+                        <phase>the.bytecode.club.bytecodeviewer</phase>
                         <goals>
                             <goal>single</goal>
                         </goals>
